@@ -32,3 +32,20 @@ Exploit 2: Authenticated Stored Cross Site Scripting in Youtube URL Embeds
 4. Source Code: <img src="exploit2.JPG" width="800">
 
 5. Gif of exloit: <img src="gif2 XSS.gif" width="800">
+
+
+
+Exploit 3: Authenticated Stored Cross Site Scripting via Media File Metadata
+
+1. Steps:
+  Similar to both previous methods, yet another exploit was found in the use of media files (specifically audio playlists) when added to pages by and editor or admin. Audio files are not properly sanitized and a XSS attack can be included in the short code associated with the created playlist.
+  
+2. Type of Vulnerbility:
+  Cross Site Scripting
+  
+3. Affected Versions:
+  3.6.0 - 4.7.2
+  
+4. Source Code: <img src="exploit3.JPG" width="800">
+
+5. Gif of exloit: <img src="gif3 XSS.gif" width="800">
